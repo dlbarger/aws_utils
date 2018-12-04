@@ -1,0 +1,20 @@
+Name:  aws_utils
+Version:  1.0
+Summary:  Python utilities for interacting with AWS resources
+Url:  https://github.com/dlbarger/aws_utils
+DescriptionFromFile:  README.md
+Author:  Dennis Barger
+AuthorEmail:  dbarger@sei.com
+License:  MIT
+Platforms:  any
+
+ExtraSourceFiles:
+    LICENSE.txt,
+    README.md,
+    setup.py
+
+Library:
+    Packages:
+        aws_utils,
+        aws_utils.s3,
+        aws_utils.sfn
